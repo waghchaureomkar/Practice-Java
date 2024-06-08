@@ -12,7 +12,7 @@ public class PT01_Star {
 //		PatternsStar.pattern7(5);
 //		PatternsStar.pattern8(5);
 //		PatternsStar.pattern9(5);
-		PatternsStar.pattern10(5);
+//		PatternsStar.pattern10(5);
 //		PatternsStar.pattern11(5);
 //		PatternsStar.pattern12(5);
 //		PatternsStar.pattern13(5);
