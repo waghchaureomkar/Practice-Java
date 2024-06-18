@@ -7,27 +7,26 @@ public class String2 {
 	public static void main(String[] args) {
 
 		String s ="vinayakvinayakvinayak";
-		
+
 		String c[]=s.split("");
-		
-		ArrayList<String> arr=new  ArrayList<String>();
-		ArrayList<String> dup=new  ArrayList<String>();
-		for(int i=0;i<c.length;i++)
-		{
-			
-			if(arr.contains(c[i]))
+
+		ArrayList<String> arr=new  ArrayList<>();
+		ArrayList<String> dup=new  ArrayList<>();
+		for (String element : c) {
+
+			if(arr.contains(element))
 			{
-				dup.add(c[i]);
+				dup.add(element);
 			}
 			else
 			{
-				arr.add(c[i]);
+				arr.add(element);
 			}
 		}
 
 		System.out.println(arr);
-		
-		
+
+
 	}
 
 }

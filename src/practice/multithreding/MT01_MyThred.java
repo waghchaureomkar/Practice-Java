@@ -17,6 +17,7 @@ public class MT01_MyThred {
 
 class MyThred extends Thread {
 
+	@Override
 	public void run() {
 		for (int i = 0; i < 100; i++) {
 			System.out.println(Thread.currentThread().getId() + " Value " + i);
@@ -27,6 +28,7 @@ class MyThred extends Thread {
 
 class RunThread implements Runnable {
 
+	@Override
 	public void run() {
 		for (int i = 0; i < 100; i++) {
 			System.out.println(Thread.currentThread().getId() + " Value " + i);

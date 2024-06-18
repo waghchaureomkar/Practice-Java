@@ -15,6 +15,7 @@ public class MT02_usingRunnable {
 }
 
 class MyThread1 implements Runnable {
+	@Override
 	public void run() {
 		for (int i = 0; i < 100; i++) {
 			System.out.println("th:" + Thread.currentThread().getId() + "-value:" + i);

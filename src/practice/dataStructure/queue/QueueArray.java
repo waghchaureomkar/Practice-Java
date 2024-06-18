@@ -9,14 +9,14 @@ public class QueueArray {
 
 		Queue(int n) {
 			arr = new int[n];
-			this.size = n;
+			Queue.size = n;
 		}
-		
+
 
 	}
-	
+
 	public static void main(String[] args) {
-		
+
 		System.out.println("");
 	}
 }

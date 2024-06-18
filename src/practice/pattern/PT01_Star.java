@@ -45,10 +45,10 @@ class PatternsStar {
 
 //	patterns 2--------------
 
-//	* 
-//	* * 
-//	* * * 
-//	* * * * 
+//	*
+//	* *
+//	* * *
+//	* * * *
 //	* * * * *
 
 	public static void pattern2(int n) {
@@ -66,10 +66,10 @@ class PatternsStar {
 
 //	patterns 3--------------
 
-//			* 
-//	      * * 
-//	    * * * 
-//	  * * * * 
+//			*
+//	      * *
+//	    * * *
+//	  * * * *
 //	* * * * *
 
 	public static void pattern3(int n) {
@@ -92,10 +92,10 @@ class PatternsStar {
 //	patterns 4--------------
 
 //	* * * * *
-//	* * * * 
-//	* * * 
-//	* * 
-//	* 
+//	* * * *
+//	* * *
+//	* *
+//	*
 
 	public static void pattern4(int n) {
 		System.out.println("\n4.pattern -------------->\n");
@@ -113,10 +113,10 @@ class PatternsStar {
 //	patterns 5-------------->
 
 //	* * * * *
-//	  * * * * 
-//	    * * * 
-//	      * * 
-//			* 
+//	  * * * *
+//	    * * *
+//	      * *
+//			*
 
 	public static void pattern5(int n) {
 		System.out.println("\n5.pattern -------------->\n");
@@ -137,15 +137,15 @@ class PatternsStar {
 
 //	patterns 6--------------
 
-//	* 
-//	* * 
-//	* * * 
-//	* * * * 
+//	*
+//	* *
+//	* * *
+//	* * * *
 //	* * * * *
-//	* * * * 
-//	* * * 
-//	* * 
-//	* 
+//	* * * *
+//	* * *
+//	* *
+//	*
 
 	public static void pattern6(int n) {
 		System.out.println("\n6.pattern -------------->\n");
@@ -163,15 +163,15 @@ class PatternsStar {
 	}
 
 //	patterns 7--------------
-//			* 
-//        * * 
-//  	* * * 
-//    * * * * 
+//			*
+//        * *
+//  	* * *
+//    * * * *
 //	* * * * *
-//	  * * * * 
-//	    * * * 
-//	      * * 
-//			* 
+//	  * * * *
+//	    * * *
+//	      * *
+//			*
 
 	public static void pattern7(int n) {
 		System.out.println("\n7.pattern -------------->\n");
@@ -194,15 +194,15 @@ class PatternsStar {
 
 //	patterns 8--------------
 
-//	* 
-//	* * 
-//	* * * 
-//	* * * * 
+//	*
+//	* *
+//	* * *
+//	* * * *
 //	* * * * *
-//	  * * * * 
-//	    * * * 
-//	      * * 
-//			* 
+//	  * * * *
+//	    * * *
+//	      * *
+//			*
 
 	public static void pattern8(int n) {
 		System.out.println("\n8.pattern -------------->\n");
@@ -225,15 +225,15 @@ class PatternsStar {
 
 //	patterns 9--------------
 
-//		* 
-//	   * * 
-//	  * * * 
-//	 * * * * 
+//		*
+//	   * *
+//	  * * *
+//	 * * * *
 //	* * * * *
-//	 * * * * 
-//	  * * * 
-//	   * * 
-//		* 
+//	 * * * *
+//	  * * *
+//	   * *
+//		*
 
 	public static void pattern9(int n) {
 		System.out.println("\n9.pattern -------------->\n");
@@ -257,12 +257,12 @@ class PatternsStar {
 //	patterns 10--------------
 
 //* * * * *
-// * * * * 
-//  * * * 
-//   * * 
-//	  * 
-//	 * * 
-//	* * * 
+// * * * *
+//  * * *
+//   * *
+//	  *
+//	 * *
+//	* * *
 // * * * *
 //* * * * *
 

@@ -9,15 +9,15 @@ public class String1 {
 
 		String[] d = data.split("");
 
-		ArrayList<String> arr = new ArrayList<String>();
-		ArrayList<String> db = new ArrayList<String>();
-		for (int i = 0; i < d.length; i++) {
+		ArrayList<String> arr = new ArrayList<>();
+		ArrayList<String> db = new ArrayList<>();
+		for (String element : d) {
 
-			if (arr.contains(d[i])) {
-				if (!db.contains(d[i]))
-					db.add(d[i]);
+			if (arr.contains(element)) {
+				if (!db.contains(element))
+					db.add(element);
 			} else {
-				arr.add(d[i]);
+				arr.add(element);
 
 			}
 

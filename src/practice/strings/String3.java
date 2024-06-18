@@ -8,17 +8,17 @@ public class String3 {
 
 		String[] name = { "Vinayak", "Omkar", "Vinayak", "Omkar", "Omkar", "Surekha" };
 
-		ArrayList<String> arr = new ArrayList<String>();
-		ArrayList<String> duplicate = new ArrayList<String>();
-		
-		
+		ArrayList<String> arr = new ArrayList<>();
+		ArrayList<String> duplicate = new ArrayList<>();
 
-		for (int i = 0; i < name.length; i++) {
-			if (arr.contains(name[i])) {
-				if(!duplicate.contains(name[i]))
-				duplicate.add(name[i]);
+
+
+		for (String element : name) {
+			if (arr.contains(element)) {
+				if(!duplicate.contains(element))
+				duplicate.add(element);
 			} else {
-				arr.add(name[i]);
+				arr.add(element);
 
 			}
 		}
